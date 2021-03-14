@@ -1,0 +1,140 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.header img{
+    display: block;
+}
+
+.title{
+    color: white;
+}
+
+.header{
+    /* padding: 0.5em; */
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(233, 157, 157, 0.979);
+} 
+.nav{
+    flex: 1;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav__li{
+    position: relative;
+    float: left;
+    border: 2px solid  rgba(187, 91, 91, 0.979);
+    border-radius: 15%;
+    font-size: 20px;
+    background-color:  rgba(187, 91, 91, 0.979);
+}
+
+.nav__li:hover{
+    font-size: 22px;
+    background-color:  rgba(233, 157, 157, 0.979);;
+    border-color:  rgba(233, 157, 157, 0.979);;
+}
+
+.img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;  
+}
+
+.main-content{
+    padding: 0.5em;
+    width: 80vw;
+    height: 85vh;
+    overflow: scroll;
+    text-align: justify;
+}
+
+.img-tab{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-content{
+    width: 20vw;
+    position: fixed;
+    right: 0;
+    top: 5vh;
+    height: 90vh;
+    background-color: rgba(233, 157, 157, 0.979);;
+}
+
+.text-aside{
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.aside-list{
+    list-style: none;
+}
+
+.aside-list li{
+    margin: 2rem 0;
+    width: fit-content;
+    position: relative;
+    float: left;
+    border: 2px solid  rgba(187, 91, 91, 0.979);
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(187, 91, 91, 0.979);
+    display: flex;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.aside-list li:hover{
+    font-size: 22px;
+    background-color:  rgba(233, 157, 157, 0.979);;
+    border-color:  rgba(233, 157, 157, 0.979);;
+}
+
+.content{
+    position: fixed;
+    width: 100vw;
+    height: 90vh;
+    top: 5vh;
+}
+
+.footer{
+    padding: 0.5em;
+    position: fixed;
+    height: 8vh;
+    width: 100vw;
+    bottom: 0;
+    background-color: rgba(233, 157, 157, 0.979);;
+}
