@@ -134,6 +134,10 @@ html, body{
     top: 5vh;
 }
 
+span{
+    text-decoration: underline;
+}
+
 .footer{
     padding: 0.5em;
     position: fixed;
