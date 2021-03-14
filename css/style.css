@@ -46,8 +46,8 @@ html, body{
 
 .nav__li:hover{
     font-size: 22px;
-    background-color:  rgba(233, 157, 157, 0.979);;
-    border-color:  rgba(233, 157, 157, 0.979);;
+    background-color:  rgba(233, 157, 157, 0.979);
+    border-color:  rgba(233, 157, 157, 0.979);
 }
 
 .img{
@@ -115,6 +115,10 @@ html, body{
 .link{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.76);
+}
+
+.link:hover{
+    color: white;
 }
 
 .aside-list li:hover{
